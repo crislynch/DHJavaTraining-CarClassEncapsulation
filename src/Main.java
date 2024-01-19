@@ -8,6 +8,7 @@
 public class Main {
     public static void main(String[] args) {
         Auto automobile1 = new Auto("BMW", "335is", 3000, "AMGKILL");
+
         System.out.println("L'automobile selezionata e': " + automobile1.getMarca() + ", " + automobile1.getModello() + ", " + automobile1.getCilindrata() + ", " + automobile1.getTarga());
     }
 }
